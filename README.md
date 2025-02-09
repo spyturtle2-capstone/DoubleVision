@@ -2,15 +2,15 @@
 
 ## Overview
 
-**Double Vision** aims to enhance small, inexpensive Unmanned Aerial Systems (sUAS) with advanced AI capabilities, specifically focusing on computer vision (CV) image-matching capabilities to aid resource-constrained teams in reconnaissance and surveillance tasks.
+**Double Vision** aims to enhance small, inexpensive Unmanned Aerial Systems (sUAS) with advanced AI capabilities, specifically focusing on computer vision (CV) image-matching to aid resource-constrained teams in reconnaissance and surveillance tasks.
 
 ### Problem
 
-Small, inexpensive Unmanned Aerial Systems (sUAS) lack AI capability.
+Currently fielded sUAS lack AI capability.
 
 ### Motivation
 
-The project seeks to provide sUAS with computer vision (CV) image-matching capabilities that can significantly benefit teams performing reconnaissance and surveillance, particularly those with limited resources.
+The project seeks to provide sUAS with CV image-matching capabilities that can significantly benefit teams performing reconnaissance and surveillance, particularly those with limited resources.
 
 ### Related Work
 
