@@ -1,5 +1,50 @@
-# DoubleVision and ROS2
-Get started with the Robotic Operating System (ROS) framework used in the Spy Turtle - Double Vision project. 
+# Double Vision - Spy Turtle CMU Capstone Project
+
+## Overview
+
+**Double Vision** aims to enhance small, inexpensive Unmanned Aerial Systems (sUAS) with advanced AI capabilities, specifically focusing on computer vision (CV) image-matching capabilities to aid resource-constrained teams in reconnaissance and surveillance tasks.
+
+### Problem
+
+Small, inexpensive Unmanned Aerial Systems (sUAS) lack AI capability.
+
+### Motivation
+
+The project seeks to provide sUAS with computer vision (CV) image-matching capabilities that can significantly benefit teams performing reconnaissance and surveillance, particularly those with limited resources.
+
+### Related Work
+
+Miao J, Thongprayoon C, Suppadungsuk S, Garcia Valencia OA, Cheungpasitporn W. (March 8, 2024). “Integrating Retrieval-Augmented Generation with Large Language Models in Nephrology: Advancing Practical Applications”. Medicina (Kaunas), 60(3):445. Accessed February 5, 2025. [PMC Article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10972059/)
+
+### Anticipated Tasks
+
+1. **Model 1 Development**: Build a large CV model that processes extensive reconnaissance image data and outputs a curated subset of reference images ("dossier").
+2. **Model 2 Development and Integration**: Modify an open-source CV model to accept both the dossier and image data from the Turtlebot 4 Lite robotics platform. Utilize the turtlebot's onboard camera data as a test image and compare it against the dossier reference images to produce a similarity score.
+3. **User Interface**: Develop a web app interface for end-users that integrates with the turtlebot for navigation and decision-making, accepting Model 2's similarity scores as alerts for potential matches.
+4. **Testing and Optimization**: Perform iterative testing and optimization of the system.
+5. **Demonstration**: Showcase the solution during a final poster presentation.
+
+### Capacity and Capability Gaps
+
+- **Capacity Gaps**: Building and testing functional CV models, ensuring smooth and secure data flow between Double Vision components, and developing proficiency with the Robotics Operating System (ROS).
+- **Capability Gaps**: As of February 10, 2025, the Double Vision team has yet to achieve significant capabilities. The team has completed required project documentation and begun learning ROS 2.
+
+### AI2C Fit
+
+Double Vision fits quite naturally into the Robotics and Autonomous Systems (RAS) portfolio, aligning with similar projects such as a "hunter drone" that performs target handoff to a "killer drone" using computer vision AI models.
+
+### Requests for Information (RFI)
+
+Any requests for information from end-users of Double Vision should be directed to the team's AI2C mentors.
+
+### Mentor and Customer Information
+
+- **Mentors**: Will Andersen, Nate Rosenberger
+- **Customer**: Small tactical teams performing reconnaissance or surveillance
+
+
+# Installation Instructions
+Get started with the Robotic Operating System (ROS) framework used in the Double Vision - Spy Turtle project. 
 
 ## Run ROS2 on your local host
 #### The following instructions worked great on a Macbook Pro using Terminal and Docker Desktop. You may need to slightly adapt it to fit your local system's particulars!
